@@ -1,0 +1,37 @@
+---
+Problem: 'mutli-task DeepONet for training source model for Darcy problem'
+Architecture: # configuration of the trunk and branch networks.
+  Trunk_lyr: [ 64, 128, 128, 128 ]
+  Br_cnn_filters: [ 16, 32, 64, 64 ]
+  Br_mlp_lyr: [ 128, 128 ]
+  latent_dim: 150
+  Dropout_br_mlp: 0.1
+  Br_cnn_ker_sz: 5
+  Br_cnn_stride: 1
+  Br_avgpool_sz: [2, 2]
+  Br_regularizer: 0.0
+  Br_regularizer_trnf: 0.0
+  Trk_regularizer: 0.0
+  Br_cnn_activation: 'relu'
+  Br_mlp_activation: 'tanh'
+  Trk_mlp_activation: 'leaky_relu'
+Exp_setup:    # Setup experiment
+  exp_name: 'exp2_validation'
+  batch_sz: 1000
+  num_train: 1800
+  num_test: 200
+  epochs: 5000
+  epoch_bounds: [5001, 8001]
+  lear_rate: [0.001, 0.0005, 0.0001]
+  lr_resadp: 0.01
+  lambda_resadp: 0.999
+  num_geom: 3
+  source_geom: 'tri+sq+circle'
+  target_geom: 'tri+sq+circle'
+  dataset: 'Dataset_eqtri_mask_rev4.mat'
+  experiment_details: ''
+
+
+
+
+

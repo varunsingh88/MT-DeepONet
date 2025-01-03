@@ -1,0 +1,2 @@
+model_checkpoint_path: "multitask_target_exp1_target_validation_sqcross.ckpt"
+all_model_checkpoint_paths: "multitask_target_exp1_target_validation_sqcross.ckpt"
