@@ -1,0 +1,2 @@
+model_checkpoint_path: "DeepONet_Fisher_exp2_validation.ckpt"
+all_model_checkpoint_paths: "DeepONet_Fisher_exp2_validation.ckpt"

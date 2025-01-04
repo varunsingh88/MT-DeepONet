@@ -1,0 +1,26 @@
+---
+Problem: '3D plate heat transfer problem DeepONet setup'
+Architecture: # configuration of the trunk and branch networks.
+  br_lyr: [32, 64, 128, 128]
+  trk_lyr: [32, 64, 64, 64, 128, 128, 128, 128, 128]
+  latent_dim: 200
+  dropout_br: 0.1
+  regularizer_lambda: 0.000
+  br_activation: 'swish'    # Has to be changed manually in model file for self.cnn_act
+  trk_activation: 'swish'      #'tanh'
+Exp_setup:    # Setup experiment
+  exp_name: 'exp50_validation'
+  epochs: 20000
+  adaptive_act: false
+  residual_conn: true
+  dataset: 'interpol_results.mat'
+  br_norm: true
+  test_case: [1,2,4,5,6,9,10,12,13,14,17,18,20,21,22,25,26,28,29,30,33,34,36,37,38,41,42,44,45,46,49,50,52,53,54,57,58,60,61,62]
+  optimizer1: 'Adam'
+  test_condition: ''
+
+
+
+
+
+

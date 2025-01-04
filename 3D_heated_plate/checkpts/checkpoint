@@ -1,0 +1,2 @@
+model_checkpoint_path: "DON_3D_plate_exp50_validation.ckpt"
+all_model_checkpoint_paths: "DON_3D_plate_exp50_validation.ckpt"

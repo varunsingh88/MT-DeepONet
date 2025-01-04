@@ -1,0 +1,21 @@
+---
+Problem: '1D Fisher equation'
+Architecture: # configuration of the trunk and branch networks.
+  br_lyr: [128, 128]
+  trk_lyr: [128, 128, 128]
+  latent_dim: 300
+  dropout_br: 0.0
+  regularizer_lambda: 0.001
+  br_activation: 'leaky_relu'
+  trk_activation: 'leaky_relu'
+Exp_setup:    # Setup experiment
+  exp_name: 'exp3_validation'
+  epochs: 100000
+  optimizer1: 'Adam'
+  test_condition: ''
+
+
+
+
+
+

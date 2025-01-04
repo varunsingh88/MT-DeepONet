@@ -1,0 +1,22 @@
+name: MTL-DeepOnet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+    - absl-py
+    - opencv-python
+    - pyvista
+    - keras==2.15.0
+    - tensorflow==2.15.0
+    - tensorboard==2.15.0
+    - tqdm
+    - natsort
+    - pyyaml
