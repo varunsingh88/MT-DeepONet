@@ -17,9 +17,11 @@ The repository demonstrates the implementation of Multi-Task DeepONet for solvin
    ```bash
    git clone https://github.com/varunsingh88/MTL_DeepONet.git  
    cd MTL_DeepONet
-   conda env create -n "user location for environment" -f environment.yaml
+   conda env create -n "environment name" -f environment.yaml
    conda activate "environment name"
 
-Location for data:
+### Downloading data
+The dataset for experiments in this study is available here
+[*Download MT-DeepONet data*](https://drive.google.com/drive/folders/1HxjdCUGmbpzzBDo01JRdsT2Uk3AmZOPr?usp=sharing)
 
-https://drive.google.com/drive/folders/1HxjdCUGmbpzzBDo01JRdsT2Uk3AmZOPr?usp=sharing
+Download individual data for each problem and store in the corresponding 'Data' folder for each problem.
