@@ -25,7 +25,7 @@ class Deep_Net_engine(tf.keras.Model):
         super().__init__()
 
         """
-        Setting parameters for high fidelity model
+        Setting parameters for model
         """
         self.br1_hidden_nodes = mlp_nodes_br
         self.trk_hidden_nodes = mlp_nodes_trk
