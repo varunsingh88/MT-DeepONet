@@ -19,6 +19,7 @@ The repository demonstrates the implementation of Multi-Task DeepONet for solvin
    cd MTL_DeepONet
    conda env create -n "environment name" -f environment.yaml
    conda activate "environment name"
+   ````
 
 ### Downloading data
 The dataset for experiments in this study is available here
@@ -26,7 +27,23 @@ The dataset for experiments in this study is available here
 
 Download individual data for each problem and store in the corresponding 'Data' folder for each problem.
 
-## Usage instruction
+## Usage
 Individual problems contained in the folders can be run independently after activating the conda environment: 
 ````bash
 python main.py
+````
+Checkpoints saved for each problem can be used for evaluating the model's output.
+
+## Reference
+If you use this repository, please cite the manuscript:
+````bibtex
+@article{kumar2024synergistic,
+  title={Synergistic learning with multi-task deeponet for efficient pde problem solving},
+  author={Kumar, Varun and Goswami, Somdatta and Kontolati, Katiana and Shields, Michael D and Karniadakis, George Em},
+  journal={arXiv preprint arXiv:2408.02198},
+  year={2024}
+}
+````  
+
+
+
