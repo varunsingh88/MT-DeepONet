@@ -1,7 +1,7 @@
 """
 Author: Varun Kumar
 Date: Jan 3 2025
-Purpose: model script for heat transfer in 3D plate
+Purpose: model script for FIsher problem
 Contact: varun_kumar2@brown.edu
 """
 
