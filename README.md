@@ -1,7 +1,9 @@
 # Synergistic Learning with Multi-Task DeepONet for Efficient PDE Problem Solving  
 
 This repository contains the source code and resources associated with the manuscript:  
-[*Synergistic Learning with Multi-Task DeepONet for Efficient PDE Problem Solving*](https://arxiv.org/abs/2408.02198).  
+[*Synergistic Learning with Multi-Task DeepONet for Efficient PDE Problem Solving*](https://arxiv.org/abs/2408.02198). 
+
+https://github.com/user-attachments/assets/768e7485-31e8-4dcb-85e7-155c9f882495
 
 ## Overview  
 The repository demonstrates the implementation of Multi-Task DeepONet for solving partial differential equations (PDEs) efficiently through synergistic learning. The codebase is divided into three segments based on the problem discussed in the manuscript.
