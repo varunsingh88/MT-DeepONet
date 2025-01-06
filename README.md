@@ -23,9 +23,9 @@ The repository demonstrates the implementation of Multi-Task DeepONet for solvin
 
 ### Downloading data
 The dataset for experiments in this study is available here
-[*Download MT-DeepONet data*](https://drive.google.com/drive/folders/1HxjdCUGmbpzzBDo01JRdsT2Uk3AmZOPr?usp=sharing)
+[*MT-DeepONet data*](https://drive.google.com/drive/folders/1HxjdCUGmbpzzBDo01JRdsT2Uk3AmZOPr?usp=sharing)
 
-Download individual data for each problem and store in the corresponding 'Data' folder for each problem.
+Download individual data for each problem and store in the corresponding 'Data' folders.
 
 ## Usage
 Individual problems contained in the folders can be run independently after activating the conda environment: 
