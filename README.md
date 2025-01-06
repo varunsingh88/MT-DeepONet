@@ -24,7 +24,7 @@ The repository demonstrates the implementation of Multi-Task DeepONet for solvin
    ````
 
 ### Downloading data
-The dataset for experiments in this study is available here
+All dataset used in this study are available here
 [*MT-DeepONet data*](https://drive.google.com/drive/folders/1HxjdCUGmbpzzBDo01JRdsT2Uk3AmZOPr?usp=sharing)
 
 Download individual data for each problem and store in the corresponding 'Data' folders.
