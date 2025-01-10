@@ -17,7 +17,7 @@ The repository demonstrates the implementation of Multi-Task DeepONet for solvin
 ### Setting up the Environment  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/varunsingh88/MTL_DeepONet.git  
+   git clone https://github.com/varunsingh88/MT-DeepONet.git  
    cd MTL_DeepONet
    conda env create -n "environment name" -f environment.yaml
    conda activate "environment name"
