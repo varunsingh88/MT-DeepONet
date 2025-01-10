@@ -39,11 +39,16 @@ Checkpoints saved for each problem can be used for evaluating the model's output
 ## Reference
 If you use this repository, please cite the manuscript:
 ````bibtex
-@article{kumar2024synergistic,
-  title={Synergistic Learning with Multi-task DeepONet for Efficient PDE Problem Solving},
-  author={Kumar, Varun and Goswami, Somdatta and Kontolati, Katiana and Shields, Michael D and Karniadakis, George Em},
-  journal={arXiv preprint arXiv:2408.02198},
-  year={2024}
+@article{KUMAR2025107113,
+title = {Synergistic learning with multi-task DeepONet for efficient PDE problem solving},
+journal = {Neural Networks},
+volume = {184},
+pages = {107113},
+year = {2025},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2024.107113},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608024010426},
+author = {Varun Kumar and Somdatta Goswami and Katiana Kontolati and Michael D. Shields and George Em Karniadakis},
 }
 ````  
 
